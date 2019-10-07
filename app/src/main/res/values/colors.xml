@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BF0818</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#BF0818</color>
+    <color name="colorSecondary">#BF0818</color>
+    <color name="colorYellowLogin">#FCE000</color>
+    <color name="colorTextInsideYellow">#3D1E1F</color>
+    <color name="subDarkGray">#AAAAAA</color>
+    <color name="colorFacebookBackground">#3B5998</color>
+    <color name="black_shadow">#CC000000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="dialog_background">#B3000000</color>
+    <color name="yellow">#EFC75E</color>
+    <color name="ongoing_contest_card_color">#101B1E</color>
+    <color name="gray">#4F4F4F</color>
+    <color name="light_black">#0D0D0F</color>
+    <color name="seek_bar_inactive">#3d3d3f</color>
+    <color name="alert_dialog_background">#BF1E1E1E</color>
+    <color name="greyFiftyOpacity">#80292929</color>
+    <color name="fullscreenBtnBackground">#80454545</color>
+    <color name="mediaControlText">#FFBEBEBE</color>
+    <color name="musicItemBackground">#0d0d0f</color>
+    <color name="ongoingContestBackground">#030f12</color>
+    <color name="border_color">#797979</color>
+</resources>

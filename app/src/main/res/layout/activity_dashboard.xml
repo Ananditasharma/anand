@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enuke.unicon.activity.FeedActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rl_include_signup"
+        android:visibility="gone">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/includeSignupView"
+            layout="@layout/dialog_signup" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/gradient_display"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="560dp"
+        android:visibility="gone"
+        android:layout_above="@+id/bottomNavigationView"
+        android:background="@drawable/gradient"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <com.enuke.unicon.custom.BottomNavigationBar
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+    </com.enuke.unicon.custom.BottomNavigationBar>
+
+</RelativeLayout>

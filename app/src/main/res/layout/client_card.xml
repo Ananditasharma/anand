@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/rlmainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentEnd="true"
+
+        app:cardBackgroundColor="@color/light_black"
+        card_view:cardCornerRadius="@dimen/_7sdp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/company_info"
+            android:textColor="@color/subDarkGray" />
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_toRightOf="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="*"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:text="@string/hyper"
+            android:textColor="@color/subDarkGray" />
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btnDeposit"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/textView31"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_35sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardBackgroundColor="@color/colorSecondary"
+            card_view:cardCornerRadius="@dimen/_7sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:text="@string/change"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="100dp"
+            android:text="@string/comp_registration"
+            android:textColor="@color/subDarkGray" />
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            android:text="000000"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="140dp"
+            android:text="@string/representative_name"
+            android:textColor="@color/subDarkGray" />
+        <TextView
+        android:id="@+id/textView36"
+            android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="140dp"
+        android:text="최재혁"
+        android:textColor="@color/subDarkGray" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="180dp"
+            android:text="@string/business"
+            android:textColor="@color/subDarkGray" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardIImageThumb1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_135sdp"
+            android:layout_below="@+id/textView36"
+            android:layout_alignEnd="@+id/textView34"
+            android:background="@color/subDarkGray"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

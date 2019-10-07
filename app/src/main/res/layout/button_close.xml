@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_80sdp"
+    android:layout_height="@dimen/_28sdp"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/btnClose"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:background="@drawable/button_close_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:src="@drawable/ic_clear_white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnOrientation"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:background="@drawable/button_fullscreen_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLandscape"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_9sdp"
+            android:src="@drawable/full_screen_video_button" />
+
+        <ImageView
+            android:id="@+id/imgPortrait"
+            android:layout_width="@dimen/_9sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/full_screen_video_button"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

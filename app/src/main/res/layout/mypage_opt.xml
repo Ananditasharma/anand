@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:id="@+id/rl"
+    android:layout_marginLeft="@dimen/_30sdp"
+    android:layout_marginRight="@dimen/_30sdp"
+    android:background="#00FFFFFF">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/optioncard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@null"
+        app:cardBackgroundColor="@color/light_black"
+        app:cardCornerRadius="18dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/optioncard"
+            android:layout_alignStart="@+id/optioncard"
+            android:layout_alignBottom="@+id/optioncard"
+            android:background="@color/greyFiftyOpacity"
+            android:text="수정"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="NotoSansKR-Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/optioncard"
+
+            android:layout_alignStart="@+id/optioncard"
+            android:layout_marginTop="50dp"
+            android:background="@color/greyFiftyOpacity"
+            android:text="삭제"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnok"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/optioncard"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="취소"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
